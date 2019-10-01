@@ -8,8 +8,8 @@ scr.fill(pygame.Color('green'))
 def draw():
     pygame.draw.rect(scr, pygame.Color('black'), [(10, 10), (20, 250)], 0)
     pygame.draw.rect(scr, pygame.Color('white'), [(30, 10), (200, 50)], 0)
-
     pygame.draw.rect(scr, pygame.Color('blue'), [(30, 60), (200, 50)], 0)
+    pygame.draw.rect(scr, pygame.Color('red'), [(30, 110), (200, 50)], 0)
 
 draw()
 
